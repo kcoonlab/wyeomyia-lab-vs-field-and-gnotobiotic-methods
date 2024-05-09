@@ -1,0 +1,625 @@
+Type,Sample_Type,Kingdom,Phylum,Class,Order,value
+larvae,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+larvae,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.400632188
+larvae,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+larvae,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0
+larvae,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+larvae,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+larvae,,Bacteria,Firmicutes,Bacilli,Bacillales,0.093617594
+larvae,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+larvae,,Bacteria,Firmicutes,Clostridia,Clostridiales,0.036787948
+larvae,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+larvae,,Other,Other,Other,Other,0.037594996
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.431367274
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+larvae,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+water,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+water,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.088280294
+water,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+water,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.078258874
+water,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+water,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.161490208
+water,,Bacteria,Firmicutes,Bacilli,Bacillales,0.09248776
+water,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+water,,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+water,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+water,,Other,Other,Other,Other,0.040468176
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.168910649
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.119186047
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0.020654835
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.129130967
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.101132191
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+water,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+water,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0.046912962
+water,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.096981841
+water,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0.052748904
+water,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.066750157
+water,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0.030407013
+water,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.086862868
+water,,Bacteria,Firmicutes,Bacilli,Bacillales,0.056505949
+water,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+water,,Bacteria,Firmicutes,Clostridia,Clostridiales,0.022066374
+water,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+water,,Other,Other,Other,Other,0.037921102
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.241477771
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.141815905
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.087839699
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.031709455
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+water,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+eggs,CNV,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+eggs,CNV,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+eggs,CNV,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+eggs,CNV,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.049556702
+eggs,CNV,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+eggs,CNV,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+eggs,CNV,Bacteria,Firmicutes,Bacilli,Bacillales,0
+eggs,CNV,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+eggs,CNV,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+eggs,CNV,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+eggs,CNV,Other,Other,Other,Other,0.009196771
+eggs,CNV,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+eggs,CNV,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+eggs,CNV,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+eggs,CNV,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+eggs,CNV,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.878192404
+eggs,CNV,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.063054122
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+eggs,CNV,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+eggs,CNV,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.046357616
+newly-emerged adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.055187638
+newly-emerged adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.028697572
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0.041942605
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0.06401766
+newly-emerged adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,male,Other,Other,Other,Other,0.048565121
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.119205298
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.055187638
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.174392936
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.152317881
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0.110375276
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0.022075055
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0.037527594
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.04415011
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.070707071
+newly-emerged adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.070707071
+newly-emerged adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.035353535
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0.080808081
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0.03030303
+newly-emerged adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,male,Other,Other,Other,Other,0.070707071
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.02020202
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.070707071
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0.02020202
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.414141414
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0.04040404
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0.055555556
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.02020202
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.041237113
+newly-emerged adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.161512027
+newly-emerged adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0.068728522
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0.082474227
+newly-emerged adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,male,Other,Other,Other,Other,0.030927835
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.020618557
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.16838488
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.195876289
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0.12371134
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0.020618557
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.058419244
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0.027491409
+larvae,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+larvae,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.462828149
+larvae,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+larvae,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.025810721
+larvae,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+larvae,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+larvae,,Bacteria,Firmicutes,Bacilli,Bacillales,0.079197
+larvae,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+larvae,,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+larvae,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+larvae,,Other,Other,Other,Other,0.058680785
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.352084712
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.021398632
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+larvae,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,male,Other,Other,Other,Other,0.010197402
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.989802598
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.037924152
+mature adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.821689953
+mature adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.066533599
+mature adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,male,Other,Other,Other,Other,0.007318696
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.025282768
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.041250832
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.051982246
+mature adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.69156699
+mature adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.132626194
+mature adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,male,Other,Other,Other,Other,0.008801625
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.052283157
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.062739788
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+mature adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.719246554
+mature adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.192991687
+mature adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,male,Other,Other,Other,Other,0.023045354
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.04303904
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.021677365
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,male,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,male,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+mature adults,male,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,male,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.748489666
+mature adults,male,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,male,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.174721781
+mature adults,male,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,male,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,male,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,male,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,male,Other,Other,Other,Other,0.012029677
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.037148914
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.027609963
+mature adults,male,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,male,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.025
+newly-emerged adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.134090909
+newly-emerged adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.086363636
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0.077272727
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0.056818182
+newly-emerged adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,female,Other,Other,Other,Other,0.013636364
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.029545455
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.034090909
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0.022727273
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.027272727
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.034090909
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.031818182
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0.188636364
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0.106818182
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.106818182
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0.025
+newly-emerged adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,female,Other,Other,Other,Other,0.008043336
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.991956664
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.066964286
+newly-emerged adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0.020089286
+newly-emerged adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.036830357
+newly-emerged adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.098214286
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0.063616071
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+newly-emerged adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+newly-emerged adults,female,Other,Other,Other,Other,0.068080357
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.484375
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.0234375
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0.041294643
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0.0625
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.034598214
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+newly-emerged adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.071428571
+newly-emerged adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.054285714
+newly-emerged adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+newly-emerged adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.08
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0.094285714
+newly-emerged adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0.08
+newly-emerged adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0.037142857
+newly-emerged adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0.04
+newly-emerged adults,female,Other,Other,Other,Other,0.017142857
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0.028571429
+newly-emerged adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.202857143
+newly-emerged adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.04
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0.117142857
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0.088571429
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0.048571429
+newly-emerged adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+newly-emerged adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+mature adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.920812183
+mature adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.027411168
+mature adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,female,Other,Other,Other,Other,0.030964467
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.020812183
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+larvae,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+larvae,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.446594326
+larvae,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+larvae,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0
+larvae,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+larvae,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+larvae,,Bacteria,Firmicutes,Bacilli,Bacillales,0.086677997
+larvae,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+larvae,,Bacteria,Firmicutes,Clostridia,Clostridiales,0.033991371
+larvae,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+larvae,,Other,Other,Other,Other,0.038305661
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.025624265
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.36880638
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+larvae,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+mature adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.691541234
+mature adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.197159211
+mature adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,female,Other,Other,Other,Other,0.018231927
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.070383718
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.022683909
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+mature adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.436437014
+mature adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.375036033
+mature adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,female,Other,Other,Other,Other,0.016575382
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.109397521
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.06255405
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+mature adults,female,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+mature adults,female,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.32388535
+mature adults,female,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+mature adults,female,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.34522293
+mature adults,female,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+mature adults,female,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.264649682
+mature adults,female,Bacteria,Firmicutes,Bacilli,Bacillales,0
+mature adults,female,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+mature adults,female,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+mature adults,female,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+mature adults,female,Other,Other,Other,Other,0.007961783
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0.021974522
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.036305732
+mature adults,female,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+mature adults,female,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+larvae,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0.024580214
+larvae,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.354642929
+larvae,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+larvae,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0
+larvae,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+larvae,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0
+larvae,,Bacteria,Firmicutes,Bacilli,Bacillales,0.054420392
+larvae,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+larvae,,Bacteria,Firmicutes,Clostridia,Clostridiales,0.05401578
+larvae,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+larvae,,Other,Other,Other,Other,0.037831277
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.474509407
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+larvae,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0
+larvae,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+larvae,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+larvae,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+eggs,STR,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+eggs,STR,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0
+eggs,STR,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0
+eggs,STR,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.298071966
+eggs,STR,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+eggs,STR,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.163934426
+eggs,STR,Bacteria,Firmicutes,Bacilli,Bacillales,0
+eggs,STR,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+eggs,STR,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+eggs,STR,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+eggs,STR,Other,Other,Other,Other,0.03412723
+eggs,STR,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+eggs,STR,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.097432725
+eggs,STR,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0
+eggs,STR,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0
+eggs,STR,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.234869574
+eggs,STR,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.171564079
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+eggs,STR,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+eggs,STR,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+water,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+water,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.15694202
+water,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0.047505283
+water,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.069741799
+water,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0
+water,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.128916659
+water,,Bacteria,Firmicutes,Bacilli,Bacillales,0.071671414
+water,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+water,,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+water,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+water,,Other,Other,Other,Other,0.036203253
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.22484609
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0.022512175
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.079481761
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.106863916
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.05531563
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+water,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0
+water,,Bacteria,Actinobacteria,Acidimicrobiia,Acidimicrobiales,0
+water,,Bacteria,Actinobacteria,Actinobacteria,Actinomycetales,0.14622384
+water,,Bacteria,Bacteroidetes,Cytophagia,Cytophagales,0.055323021
+water,,Bacteria,Bacteroidetes,Flavobacteriia,Flavobacteriales,0.06833485
+water,,Bacteria,Bacteroidetes,Saprospirae,Saprospirales,0.042584167
+water,,Bacteria,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,0.107825296
+water,,Bacteria,Firmicutes,Bacilli,Bacillales,0.087716106
+water,,Bacteria,Firmicutes,Bacilli,Lactobacillales,0
+water,,Bacteria,Firmicutes,Clostridia,Clostridiales,0
+water,,Bacteria,Firmicutes,Erysipelotrichi,Erysipelotrichales,0
+water,,Other,Other,Other,Other,0.023475887
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Caulobacterales,0
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhizobiales,0.159599636
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Rhodospirillales,0.025932666
+water,,Bacteria,Proteobacteria,Alphaproteobacteria,Sphingomonadales,0.129936306
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Burkholderiales,0.125295723
+water,,Bacteria,Proteobacteria,Betaproteobacteria,Neisseriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Aeromonadales,0.027752502
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacteriales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Legionellales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Oceanospirillales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Pseudomonadales,0
+water,,Bacteria,Proteobacteria,Gammaproteobacteria,Xanthomonadales,0
+water,,Bacteria,Proteobacteria,Unassigned Proteobacteria,Unassigned Proteobacteria,0

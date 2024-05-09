@@ -1,0 +1,76 @@
+Sample ID,Shannon Sample-Wise,Shannon Error,Breakaway Estimate of Richness,Breakaway Error,category1,category2,category3,field_lab
+AA100,3.659663207,0.005781228,234.7576736,0.927100881,water,field water,field water,field 
+AA101,2.261837154,0.013964054,52.23077621,0.495491739,water,field water,field water,field 
+AA103,2.243090194,0.017473396,84.68566149,0.869498035,water,field water,field water,field 
+AA106,3.458827256,0.017621137,138.4755793,1.355176535,water,field water,field water,field 
+AA107,2.15365204,0.023312575,103.0778245,0.284519311,water,field water,field water,field 
+AA108,2.571102667,0.036351159,65.08102121,0.295943486,water,field water,field water,field 
+AA109,3.658754034,0.012140043,157.2939498,1.249922562,water,field water,field water,field 
+AA112,1.656777307,0.003764725,63.04359074,0.213285158,water,field water,field water,field 
+AA113,2.981330692,0.014588769,105.0325938,0.183483599,water,field water,field water,field 
+AA62,1.895719132,0.029634336,40.15341285,0.419596978,water,field water,field water,field 
+AA63,2.796821004,0.010387912,208.8215189,19.11606873,water,field water,field water,field 
+AA65,3.626073177,0.011964002,209.6252784,3.683935368,water,field water,field water,field 
+AA66,2.360664944,0.012561029,68.40851609,0.660296576,water,field water,field water,field 
+AA67,3.125814182,0.006392628,65.79464663,0.947243549,water,field water,field water,field 
+AA79,2.703382369,0.033772479,100.1157331,0.350059989,water,field water,field water,field 
+AA82,2.788531111,0.021231182,109.1593206,0.415507002,water,field water,field water,field 
+AA84,3.55846147,0.003541071,161.1719981,0.433415347,water,field water,field water,field 
+AA85,3.500986697,0.007624694,200.3394029,0.607856007,water,field water,field water,field 
+AA88,3.903811464,0.007004447,248.1164992,4.477913834,water,field water,field water,field 
+AA89,2.179351016,0.010130755,93.17822648,0.441192829,water,field water,field water,field 
+AA90,3.69066108,0.005228168,138.2036681,0.468054113,water,field water,field water,field 
+AA91,2.491828822,0.011131666,31.68568424,0.919931369,water,field water,field water,field 
+AA94,2.009603128,0.012633861,85.87187145,0.984005599,water,field water,field water,field 
+AA95,3.523522945,0.008738257,141.6864977,0.901631352,water,field water,field water,field 
+AA96,3.553851397,0.014220942,125.2830174,0.557858711,water,field water,field water,field 
+AA99,1.894266909,0.015247182,57.07835946,0.290623088,water,field water,field water,field 
+LAA1,2.385983939,0.017163332,43.48395616,0.740168872,larvae,field larvae,field larvae,field 
+LAA10,2.448165916,0.0166696,54.25516815,0.51868505,larvae,field larvae,field larvae,field 
+LAA11,1.880540991,0.044601087,25.37765872,0.653466276,larvae,field larvae,field larvae,field 
+LAA12,0.970195593,0.0082605,24.96705635,1.129221275,larvae,field larvae,field larvae,field 
+LAA13,1.206801748,0.016114958,38.46403216,0.715734754,larvae,field larvae,field larvae,field 
+LAA15,2.953484095,0.032622356,69.04587041,0.219074057,larvae,field larvae,field larvae,field 
+LAA17,1.690243565,0.027470082,48.71333796,1.662443043,larvae,field larvae,field larvae,field 
+LAA18,1.705928473,0.014609526,58.25216216,0.533091256,larvae,field larvae,field larvae,field 
+LAA2,1.81186093,0.025689292,51.10581146,1.345438687,larvae,field larvae,field larvae,field 
+LAA20,2.313856,0.018567797,79.49167077,0.749008994,larvae,field larvae,field larvae,field 
+LAA22,1.698881166,0.014216609,47.18993984,1.654218687,larvae,field larvae,field larvae,field 
+LAA23,2.702915001,0.021783167,91.39731355,0.647772979,larvae,field larvae,field larvae,field 
+LAA24,1.951131404,0.015035306,71.38779629,0.640713585,larvae,field larvae,field larvae,field 
+LAA26,1.751559193,0.007631125,51.66547149,0.856541594,larvae,field larvae,field larvae,field 
+LAA27,0.457199782,0.032864681,22.70837383,0.923142164,larvae,field larvae,field larvae,field 
+LAA28,1.220435136,0.013075584,21.2217928,0.493933951,larvae,field larvae,field larvae,field 
+LAA29,1.629067934,0.011942829,54.85508262,6.652843201,larvae,field larvae,field larvae,field 
+LAA3,1.80993914,0.006603306,101.1577465,1036.89685,larvae,field larvae,field larvae,field 
+LAA30,2.068501664,0.013965619,57.46531424,0.775859241,larvae,field larvae,field larvae,field 
+LAA31,1.917136463,0.019694835,54.38777186,0.649841815,larvae,field larvae,field larvae,field 
+LAA32,1.771447695,0.020197227,31.08196721,2.688600989,larvae,field larvae,field larvae,field 
+LAA4,1.428985985,0.016216718,59.04985963,0.228782885,larvae,field larvae,field larvae,field 
+LAA5,1.207973273,0.016786458,55.37776661,0.63910388,larvae,field larvae,field larvae,field 
+LAA6,1.716083338,0.006442475,37.05671642,2.918965565,larvae,field larvae,field larvae,field 
+LAA7,1.652986546,0.038167102,34.04003025,0.203984956,larvae,field larvae,field larvae,field 
+LAA8,2.363134526,0.005452395,48.23823639,0.544308543,larvae,field larvae,field larvae,field 
+LAA9,2.848889024,0.018636956,101.2254612,0.487445568,larvae,field larvae,field larvae,field 
+X2,2.443168544,0.016589705,52.29214599,1.680208619,larvae,lab larvae,lab larvae,lab
+X3,2.543946024,0.018416714,56.092,2.653049974,larvae,lab larvae,lab larvae,lab
+X1,2.446586958,0.017011946,61.08783425,0.30927474,larvae,lab larvae,lab larvae,lab
+X4,2.16895221,0.016231763,72.35780598,0.749116955,larvae,lab larvae,lab larvae,lab
+X10,3.066075937,0.010479775,61.80034798,1.392882609,water,lab water,lab water,lab
+X9,3.303426641,0.007582645,63.33333333,3.30764959,water,lab water,lab water,lab
+X8,3.22594024,0.012340499,64.0190154,0.138660837,water,lab water,lab water,lab
+X11,3.48850708,0.00290619,90.00742482,0.086527977,water,lab water,lab water,lab
+X29,0.440355177,0.021036743,9.060685368,0.259318731,mature_adult,mature females,mature_adult,lab
+X32,1.528796748,0.006567951,9.240533802,0.606888069,mature_adult,mature females,mature_adult,lab
+X31,1.486338659,0.008725606,11.08333333,1.640845299,mature_adult,mature females,mature_adult,lab
+X30,1.125453684,0.010149014,12.02171067,0.149883987,mature_adult,mature females,mature_adult,lab
+X23,1.018339191,0.010414727,11.00539897,0.073965726,mature_adult,mature males,mature_adult,lab
+X21,0.835114124,0.052428725,12.10169492,1.777204805,mature_adult,mature males,mature_adult,lab
+X24,0.932330169,0.007479829,12.06180949,0.259045278,mature_adult,mature males,mature_adult,lab
+X22,1.171487329,0.01053811,22.17065664,0.457307909,mature_adult,mature males,mature_adult,lab
+X28,3.241996721,0.028010514,29.7276224,1.225907721,new_adult,newly emerged females,new_adult,lab
+X25,3.110993482,0.047645872,31.04056921,0.203044856,new_adult,newly emerged females,new_adult,lab
+X27,2.372398898,0.019071996,34.04119382,0.204478619,new_adult,newly emerged females,new_adult,lab
+X19,2.864048913,0.017608316,25.10173884,0.324397242,new_adult,newly emerged males,new_adult,lab
+X18,2.694626089,0.131156318,28.11738858,2.322965203,new_adult,newly emerged males,new_adult,lab
+X17,3.237183451,0.048660406,36.0684114,0.264055017,new_adult,newly emerged males,new_adult,lab

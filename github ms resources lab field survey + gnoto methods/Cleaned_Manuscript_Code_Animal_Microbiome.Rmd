@@ -1,0 +1,714 @@
+---
+title: "Cleaned_Manuscript_Code_Animal_Microbiome"
+author: "Aldo A. Arellano"
+date: "10/1/2021"
+output: pdf_document
+---
+
+```{r setup}
+knitr::opts_knit$set(root.dir = 'C:/Users/aldoa/OneDrive/Desktop/Scripts and raw data files Animal Micriobiome Submission 2021 AA_KC/')
+```
+
+$$Demography: \ CNV \ vs \ gnotobiotic\  (\ reintroduced\ native\ community\ )$$
+
+Read in survival data which includes outcomes (pupated vs did not pupate) and day of pupation for each individual:
+
+```{r}
+# Determine mean pupation day for reintroduced community
+require(tidyverse)
+day_pup<-read.csv("CNV_vs_Gnoto_Pupation_Day.csv")
+day_pup$Treatment<-(as.factor(day_pup$Treatment))
+day_pup<-day_pup %>%
+        filter(Day_Pupation!= "NA")
+day_pup<-day_pup %>%
+        filter(Include!= "N")
+Reintroduced_alone<-day_pup %>%
+        filter(Treatment == "Reintroduced Community")
+mean(Reintroduced_alone$Day_Pupation)
+
+```
+
+$$Isolate\ differential\ demography$$
+
+Isolate comparisons:
+
+```{r}
+# first see if there is a difference for the day of pupation
+
+iso_day<-read.csv("Isolates_Pupation_Day.csv")
+survival_iso<-iso_day %>%
+        filter(Day_Pupation!= "NA")
+
+survival_iso<-survival_iso[which(survival_iso$Genus != "axenic"),]
+survival_iso<-survival_iso[which(survival_iso$Genus != "C. pseudoglaebosa"),]
+
+# global test for among group differences
+
+kruskal.test(Day_Pupation_27~Genus,data=survival_iso)
+
+# Conservative Dunn's for non-parametric multiple comparisons - transitivity of significant results not assumed
+
+require(FSA)
+
+all_multcomp<-dunnTest(Day_Pupation_27 ~ Genus,
+              data=survival_iso,
+              method="bh") 
+
+all_multcomp<-as.data.frame(all_multcomp$res)
+
+# adjusted p-values for comparisons relative to native microbiota
+
+merge(all_multcomp%>% filter(startsWith(Comparison, "Native")), 
+      all_multcomp%>% filter(endsWith(Comparison,"microbiota")),all.x=TRUE, all.y=TRUE)
+```
+
+Pupation survival statistics:
+
+```{r}
+#generate summary table from observed pupation in 27 day timeframe 
+pupation_observed <- matrix(c(78, 109-78, 0, 120,64,116-64,66,110-66,44,98-44,91,118-91,53,100-53), nrow = 7, ncol = 2, byrow = T)
+rownames(pupation_observed) <- c('Native microbiota', 'axenic','Chromobacterium','E.coli','Elizabethkingia','Paraburkholderia','Rhizobium')
+colnames(pupation_observed) <- c('Pupated', 'Did_not_pupate')
+pupation_observed
+```
+Global test of ratios:
+
+```{r}
+chisq.test(pupation_observed)
+```
+
+Pairwise comparisons using Barnard's test:
+```{r}
+require(Barnard)
+ # axenic
+unadj.p<-barnard.test(78,109-78,0,120)
+unadj.p$p.value
+p.adjust(unadj.p$p.value[1], method = "bonferroni", n=6)
+ # significant
+```
+```{r}
+ # Chromobacterium
+unadj.p<-barnard.test(78, 109-78,64,116-64)
+p.adjust(unadj.p$p.value[1],method="bonferroni", n=6)
+ # significant
+```
+```{r}
+ # E.coli
+unadj.p<-barnard.test(78, 109-78,66,110-66)
+p.adjust(unadj.p$p.value[1],method="bonferroni", n=6)
+ # not significant
+```
+```{r}
+ # Elizabethkingia
+unadj.p<-barnard.test(78, 109-78,44,98-44)
+p.adjust(unadj.p$p.value[1],method="bonferroni", n=6)
+ # significant
+```
+```{r}
+ # Paraburkholderia
+unadj.p<-barnard.test(78, 109-78,91,118-91)
+p.adjust(unadj.p$p.value[1],method="bonferroni", n=6)
+ # not significant
+```
+```{r}
+ # Rhizobium
+unadj.p<-barnard.test(78, 109-78,53,100-53)
+p.adjust(unadj.p$p.value[1],method="bonferroni", n=6)
+ # significant
+```
+Testing whether death or failure to pupate drives differences:
+
+```{r}
+#generate summary table from observed death in 27 day timeframe 
+death_observed <- matrix(c(28,109-28,127,542-127), nrow = 2, ncol = 2, byrow = T)
+rownames(death_observed) <- c('Native microbiota','Gnotobiotic')
+colnames(death_observed) <- c('Died', 'Survived')
+death_observed
+```
+Global test of death ratios:
+
+```{r}
+chisq.test(death_observed) # not significant
+```
+```{r}
+#generate summary table from observed developmental arrest in 27 day timeframe 
+arrest_observed <- matrix(c(3,106,97,542-97), nrow = 2, ncol = 2, byrow = T)
+rownames(arrest_observed) <- c('Native microbiota','Gnotobiotic')
+colnames(arrest_observed) <- c('Arrested', 'Not Arrested')
+arrest_observed
+```
+Global test of developmental arrest ratios:
+
+```{r}
+chisq.test(arrest_observed) # significant
+```
+
+$$Supplementary\ materials\ statistical\ tests:$$
+
+```{r}
+# Tests for wing lengths among independent trials and between CNV and native microbiota- parsed by mosquito sex
+
+# Parse just females 
+
+wings<-read.csv("CNV_vs_Gnoto_Wing_Measurements.csv")
+wings$Treatment<-(as.factor(wings$Treatment))
+wings_f<-wings %>%
+        filter(Wing_Length!= "NA", Wing_Length>1, Sex=="Female")
+
+# Test among independent CNV trials 
+
+only_cr_wings_female<-wings_f%>%filter(Treatment=="Conventionally Reared")
+
+model=lm( only_cr_wings_female$Wing_Length ~ only_cr_wings_female$Cage_or_Plate )
+ANOVA=aov(model)
+summary(model)
+
+  ## not significant
+
+# Test among independent native microbiota trials (reintroduced community)
+
+only_gnoto_wings_female<-wings_f%>%filter(Treatment=="Reintroduced Community")
+model=lm( only_gnoto_wings_female$Wing_Length ~ only_gnoto_wings_female$Cage_or_Plate )
+ANOVA=aov(model)
+summary(model)
+
+  ## not significant
+
+# Parse just males 
+
+wings_m<-wings %>%
+        filter(Wing_Length!= "NA", Wing_Length>1, Sex=="Male")
+
+# Test among independent CNV trials 
+ 
+only_cr_wings_male<-wings_m%>%filter(Treatment=="Conventionally Reared")
+
+  ## assumptions of parametric test not met, proceed with kruskal.test
+
+kruskal.test(Wing_Length~Cage_or_Plate,data=only_cr_wings_male) 
+
+  ##  significant result
+
+# Test among independent native microbiota trials (reintroduced commuinty)
+
+only_gnoto_wings_male<-wings_m%>%filter(Treatment=="Reintroduced Community")
+
+  ## assumptions of parametric test not met, proceed with kruskal.test
+
+kruskal.test(Wing_Length~Cage_or_Plate,data=only_gnoto_wings_male)
+  
+  ##  significant result
+
+# Non-parametric tests (Mann Whitney U) of treatment effects parsed by sex
+
+wilcox.test(Wing_Length~Treatment, data = wings_m) # significant
+wilcox.test(Wing_Length~Treatment, data = wings_f) # non-significant
+
+```
+
+$$Microbiome\ analysis\ :$$
+
+Differential diversity among full set of samples (lab vs field)
+
+```{r}
+require(breakaway)
+require(tidyverse)
+
+diversity_data_frame<-read.csv("dataframe_for_diversity_hypothesis_tests_FULL.csv")
+diversity_data_frame<-diversity_data_frame%>%filter(category1 != "mature_adult", category1 != "new_adult")
+# conduct betta test
+
+field_lab_richness<- betta(formula = `Breakaway.Estimate.of.Richness` ~ field_lab, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+field_lab_richness$global # global test statistic and p-value
+
+field_lab_shannon<- betta(formula = `Shannon.Sample.Wise` ~ field_lab, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+field_lab_shannon$global # global test statistic and p-value
+
+diversity_data_frame<-read.csv("dataframe_for_diversity_hypothesis_tests_FULL.csv")
+
+field_waterVSlarvae_rich<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category2, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+field_waterVSlarvae_rich$table # all relative to field larvae 
+
+field_waterVSlarvae_shannon<- betta(formula = `Shannon.Sample.Wise` ~ category2, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+field_waterVSlarvae_rich$table # all relative to field larvae 
+
+# re-order for correct pairwise assessment
+
+diversity_data_frame$category2<-factor(diversity_data_frame$category2, levels=c("lab larvae","lab water","field larvae","field water","mature females","newly emerged females","mature males","newly emerged males"))
+
+lab_waterVSlarvae_rich<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category2, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+lab_waterVSlarvae_rich$table # all relative to lab larvae 
+
+lab_waterVSlarvae_shannon<- betta(formula = `Shannon.Sample.Wise` ~ category2, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+lab_waterVSlarvae_shannon$table # all relative to lab larvae 
+
+```
+
+Differential diversity among lab samples
+
+```{r}
+# Differential diversity among lab samples
+
+require(breakaway)
+
+diversity_data_frame<-read.csv("dataframe_for_diversity_hypothesis_tests_FULL.csv")
+
+diversity_data_frame$category3<-factor(diversity_data_frame$category3, levels=c("lab larvae","lab water","field larvae","field water","new_adult","mature_adult"))
+
+larvaeVSnew_adult_rich<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category3, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+larvaeVSnew_adult_rich$table # lab larvae ordered first 
+
+field_waterVSlarvae_shannon<- betta(formula = `Shannon.Sample.Wise` ~ category3, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+field_waterVSlarvae_shannon$table # lab larvae ordered first 
+
+diversity_data_frame$category3<-factor(diversity_data_frame$category3, levels=c("mature_adult","new_adult","lab larvae","lab water","field larvae","field water"))
+
+mature_adults_rich<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category3, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+mature_adults_rich$table # lab mature adults ordered first 
+
+mature_adults_shannon<- betta(formula = `Shannon.Sample.Wise` ~ category3, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+mature_adults_shannon$table # lab mature adults ordered first
+
+# males
+
+diversity_data_frame$category2<-factor(diversity_data_frame$category2, levels=c("mature males","newly emerged males","mature females","newly emerged females","lab larvae","lab water","field larvae","field water"))
+
+sex_rich_mature<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category2, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+sex_rich_mature$table # lab mature adults ordered first (male)
+
+sex_shannon_mature<- betta(formula = `Shannon.Sample.Wise` ~ category2, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+sex_shannon_mature$table # lab mature adults ordered first (male)
+
+diversity_data_frame$category2<-factor(diversity_data_frame$category2, levels=c("newly emerged males","mature males","mature females","newly emerged females","lab larvae","lab water","field larvae","field water"))
+
+sex_rich_new<- betta(formula = `Breakaway.Estimate.of.Richness` ~ category2, 
+                      ses = `Breakaway.Error`, data = diversity_data_frame)
+
+sex_rich_new$table # lab new adults ordered first (male)
+
+sex_shannon_new<- betta(formula = `Shannon.Sample.Wise` ~ category2, 
+                      ses = `Shannon.Error`, data = diversity_data_frame)
+
+sex_shannon_new$table # lab new adults ordered first (male)
+```
+
+Differential abundance of taxa with ALDEx2
+
+```{r}
+# Differential abundance of taxa with ALDEx2
+
+require(ALDEx2)
+require(phyloseq)
+require(tidyverse)
+
+full_set<-readRDS("phyloseq_full_analysis_set")
+
+larval_comparison<-subset_samples(full_set, sample_data(full_set)$category2 != 'field water')
+larval_comparison<-subset_samples(larval_comparison, sample_data(larval_comparison)$category2 != 'lab water')
+larval_comparison = prune_taxa(taxa_sums(larval_comparison) > 0, larval_comparison)
+
+larval_comparison<-tax_glom(larval_comparison, taxrank="Order", NArm=TRUE, bad_empty=c(NA, "", " ", "\t"))
+
+aldex.field<-aldex(data.frame(otu_table(larval_comparison)), 
+                                   sample_data(larval_comparison)$category2, 
+                                   test="t", effect = TRUE)
+
+taxa_info <- data.frame(tax_table(larval_comparison))
+taxa_info <- taxa_info %>% rownames_to_column(var = "ASV")
+
+sig_aldex2 <- aldex.field %>%
+  rownames_to_column(var = "ASV") %>%
+  filter(wi.eBH < 0.05) %>%
+  arrange(effect, wi.eBH) %>%
+  dplyr::select(ASV, diff.btw, diff.win, effect, wi.ep, wi.eBH)
+sig_aldex2 <- left_join(sig_aldex2, taxa_info)
+sig_aldex2
+
+
+#####
+```
+
+Ordination analyses: PERMANOVA and PERMDISP
+
+```{r}
+# full set analysis -philr method 
+
+full_set<-readRDS("phyloseq_full_analysis_set")
+
+require(phyloseq)
+require(vegan)
+require(tidyverse)
+require(philr)
+require(mia)
+require(ape)
+
+# convert phyloseq to TSE format and parse components correctly for running philr transformation
+
+tse<-makeTreeSummarizedExperimentFromphyloseq(full_set)
+tree <- keep.tip(phy = rowTree(tse), tip = rowLinks(tse)$nodeNum)
+tree<-multi2di(tree)
+rowTree(tse) <- tree
+assays(tse)$counts.shifted <- assays(tse)$counts + 1 
+
+is.rooted(tree) # Is the tree Rooted?
+is.binary(tree) # All multichotomies resolved?
+
+tree <- makeNodeLabel(tree, method="number", prefix='n')
+rowTree(tse) <- tree
+
+tax <- rowData(tse)[,taxonomyRanks(tse)]
+name.balance(tree, tax, 'n1')
+
+otu.table <- t(as(assays(tse)$counts.shifted, "matrix"))
+tree <- rowTree(tse)
+metadata <- colData(tse)
+tax <- rowData(tse)[,taxonomyRanks(tse)]
+
+# conduct philr transformation
+
+gp.philr <- philr(otu.table, tree, 
+                  part.weights='enorm.x.gm.counts', 
+                  ilr.weights='blw.sqrt')
+
+# create dataframe for conducting tests
+
+OTU_new<-as.data.frame(gp.philr)
+OTU_new<-otu_table(OTU_new, taxa_are_rows = FALSE)
+meta<-sample_data(full_set)
+
+gp.dist <- dist(gp.philr, method="euclidean")  
+
+meta<-cbind(rownames(meta), data.frame(meta, row.names=NULL))
+colnames(meta)[1] <- "Sample ID"
+
+philr_df_dist<-as.matrix(gp.dist)
+philr_df_dist<-as.data.frame(philr_df_dist)
+philr_df_dist <- cbind(rownames(philr_df_dist), data.frame(philr_df_dist, row.names=NULL))
+colnames(philr_df_dist)[1] <- "Sample ID"
+
+joined<-inner_join(philr_df_dist,meta, by = "Sample ID")
+
+# conduct PERMDISP test
+
+ps.disper_sample_type_philr <- betadisper(gp.dist, joined$category2)
+disper_test_sample_type_philr<-permutest(ps.disper_sample_type_philr, pairwise = TRUE)
+
+# create dataframe for easy p-value adjustment
+
+summ<-summary(permustats(disper_test_sample_type_philr))
+summ
+a<-purrr::pluck(summ,'statistic')
+b<-purrr::pluck(summ,'p')
+c<-as.data.frame(a)
+d<-as.data.frame(b)
+rownames(d) = rownames(c)
+rownames(c)
+d <- cbind(rownames(d), data.frame(d, row.names=NULL))
+c <- cbind(rownames(c), data.frame(c, row.names=NULL))
+colnames(c)= c("Comparison","PERMDISP Test Statistic")
+colnames(d)= c("Comparison","PERMDISP p-value")
+
+PERMDSIP_df<-merge(c,d)
+PERMDSIP_df<-PERMDSIP_df[1:6,] # remove global test from list
+
+# adjust p-value with bonferroni method
+
+PERMDSIP_df$adj.p<-p.adjust(PERMDSIP_df$`PERMDISP p-value`,method="bonferroni", n=6)
+
+PERMDSIP_df
+
+# full set PERMANOVA philr
+
+require(ranacapa)
+# global
+adonis(gp.dist~category2,data=joined, permutations = 999)
+# Pairwise
+philr_adonis<-pairwise_adonis(joined[,2:23],joined$category2, sim_method = "euclidean", p_adjust_m = "bonferroni", reduce = NULL)
+philr_adonis
+
+```
+
+```{r}
+# full set analysis - clr method 
+
+full_set<-readRDS("phyloseq_full_analysis_set")
+
+require(microbiome)
+require(phyloseq)
+require(vegan)
+require(tidyverse)
+
+ps_clr<-microbiome::transform(full_set, "clr") # clr tranformation
+clr.dist <- dist(t(otu_table(ps_clr)), method="euclidean") # generate distance matrix
+
+# create dataframe for conducting tests
+
+meta<-sample_data(ps_clr)
+meta<-cbind(rownames(meta), data.frame(meta, row.names=NULL))
+colnames(meta)[1] <- "Sample ID"
+clr_df_dist<-as.matrix(clr.dist)
+clr_df_dist<-as.data.frame(clr_df_dist)
+clr_df_dist <- cbind(rownames(clr_df_dist), data.frame(clr_df_dist, row.names=NULL))
+colnames(clr_df_dist)[1] <- "Sample ID"
+joined<-inner_join(clr_df_dist,meta, by = "Sample ID")
+
+# conduct PERMDISP test
+
+ps.disper_sample_type_clr <- betadisper(clr.dist, joined$category2)
+disper_test_sample_type_clr<-permutest(ps.disper_sample_type_clr, pairwise = TRUE)
+
+# create dataframe for easy p-value adjustment
+
+summ<-summary(permustats(disper_test_sample_type_clr))
+a<-purrr::pluck(summ,'statistic')
+b<-purrr::pluck(summ,'p')
+c<-as.data.frame(a)
+d<-as.data.frame(b)
+rownames(d) = rownames(c)
+rownames(c)
+d <- cbind(rownames(d), data.frame(d, row.names=NULL))
+c <- cbind(rownames(c), data.frame(c, row.names=NULL))
+colnames(c)= c("Comparison","PERMDISP Test Statistic")
+colnames(d)= c("Comparison","PERMDISP p-value")
+
+PERMDSIP_df<-merge(c,d)
+PERMDSIP_df<-PERMDSIP_df[1:6,] # remove global test from list
+
+# adjust p-value with bonferroni method
+
+PERMDSIP_df$adj.p<-p.adjust(PERMDSIP_df$`PERMDISP p-value`,method="bonferroni", n=6)
+
+PERMDSIP_df
+
+# PERMANOVA for full set clr method
+
+require(ranacapa)
+# global
+adonis(clr.dist~category2,data=joined, permutations = 999)
+# Pairwise
+clr_adonis<-pairwise_adonis(joined[,2:63],joined$category2, sim_method = "euclidean", p_adjust_m = "bonferroni", reduce = NULL)
+clr_adonis
+
+#####
+```
+
+```{r}
+# For lab data (across life history) - philr method
+
+lab_reads_physeq<-readRDS("decontam lab reads no outliers")
+
+require(phyloseq)
+require(vegan)
+require(tidyverse)
+require(philr)
+require(mia)
+require(ape)
+
+# convert phyloseq to TSE format and parse components correctly for running philr transformation
+
+tse<-makeTreeSummarizedExperimentFromphyloseq(lab_reads_physeq)
+tree <- keep.tip(phy = rowTree(tse), tip = rowLinks(tse)$nodeNum)
+tree<-multi2di(tree)
+rowTree(tse) <- tree
+assays(tse)$counts.shifted <- assays(tse)$counts + 1 
+
+is.rooted(tree) # Is the tree Rooted?
+is.binary(tree) # All multichotomies resolved?
+
+tree <- makeNodeLabel(tree, method="number", prefix='n')
+rowTree(tse) <- tree
+
+tax <- rowData(tse)[,taxonomyRanks(tse)]
+name.balance(tree, tax, 'n1')
+
+otu.table <- t(as(assays(tse)$counts.shifted, "matrix"))
+tree <- rowTree(tse)
+metadata <- colData(tse)
+tax <- rowData(tse)[,taxonomyRanks(tse)]
+
+# conduct philr transformation
+
+gp.philr <- philr(otu.table, tree, 
+                  part.weights='enorm.x.gm.counts', 
+                  ilr.weights='blw.sqrt')
+
+# create dataframe for conducting tests
+
+OTU_new<-as.data.frame(gp.philr)
+OTU_new<-otu_table(OTU_new, taxa_are_rows = FALSE)
+meta<-sample_data(lab_reads_physeq)
+
+gp.dist <- dist(gp.philr, method="euclidean")  
+
+meta<-cbind(rownames(meta), data.frame(meta, row.names=NULL))
+colnames(meta)[1] <- "Sample ID"
+
+philr_df_dist<-as.matrix(gp.dist)
+philr_df_dist<-as.data.frame(philr_df_dist)
+philr_df_dist <- cbind(rownames(philr_df_dist), data.frame(philr_df_dist, row.names=NULL))
+colnames(philr_df_dist)[1] <- "Sample ID"
+
+joined<-inner_join(philr_df_dist,meta, by = "Sample ID")
+
+# conduct PERMDISP test
+
+ps.disper_sample_type_philr <- betadisper(gp.dist, joined$Type)
+disper_test_sample_type_philr<-permutest(ps.disper_sample_type_philr, pairwise = TRUE)
+
+# global test non-significant
+
+# lab data (across life history) PERMANOVA philr method
+
+require(ranacapa)
+# global
+adonis(gp.dist~Type,data=joined, permutations = 999)
+# Pairwise
+philr_adonis<-pairwise_adonis(joined[,2:23],joined$Type, sim_method = "euclidean", p_adjust_m = "bonferroni", reduce = NULL)
+philr_adonis
+```
+
+```{r}
+#For lab data (across life history) - clr method
+
+lab_reads_physeq<-readRDS("decontam lab reads no outliers")
+
+require(microbiome)
+require(phyloseq)
+require(vegan)
+require(tidyverse)
+
+ps_clr<-microbiome::transform(lab_reads_physeq, "clr") # clr tranformation
+clr.dist <- dist(t(otu_table(ps_clr)), method="euclidean") # generate distance matrix
+
+# create dataframe for conducting tests
+
+meta<-sample_data(ps_clr)
+meta<-cbind(rownames(meta), data.frame(meta, row.names=NULL))
+colnames(meta)[1] <- "Sample ID"
+clr_df_dist<-as.matrix(clr.dist)
+clr_df_dist<-as.data.frame(clr_df_dist)
+clr_df_dist <- cbind(rownames(clr_df_dist), data.frame(clr_df_dist, row.names=NULL))
+colnames(clr_df_dist)[1] <- "Sample ID"
+joined<-inner_join(clr_df_dist,meta, by = "Sample ID")
+
+# conduct PERMDISP test
+
+ps.disper_sample_type_clr <- betadisper(clr.dist, joined$Type)
+disper_test_sample_type_clr<-permutest(ps.disper_sample_type_clr, pairwise = TRUE)
+
+# create dataframe for easy p-value adjustment
+
+summ<-summary(permustats(disper_test_sample_type_clr))
+summ
+a<-purrr::pluck(summ,'statistic')
+b<-purrr::pluck(summ,'p')
+c<-as.data.frame(a)
+d<-as.data.frame(b)
+rownames(d) = rownames(c)
+rownames(c)
+d <- cbind(rownames(d), data.frame(d, row.names=NULL))
+c <- cbind(rownames(c), data.frame(c, row.names=NULL))
+colnames(c)= c("Comparison","PERMDISP Test Statistic")
+colnames(d)= c("Comparison","PERMDISP p-value")
+
+PERMDSIP_df<-merge(c,d)
+PERMDSIP_df<-PERMDSIP_df[1:6,] # remove global test from list
+
+# adjust p-value with bonferroni method
+
+PERMDSIP_df$adj.p<-p.adjust(PERMDSIP_df$`PERMDISP p-value`,method="bonferroni", n=6)
+
+PERMDSIP_df
+
+# PERMANOVA for lab data - clr method
+
+require(ranacapa)
+# global
+adonis(clr.dist~Type,data=joined, permutations = 999)
+# Pairwise
+clr_adonis<-pairwise_adonis(joined[,2:23],joined$Type, sim_method = "euclidean", p_adjust_m = "bonferroni", reduce = NULL)
+clr_adonis
+```
+
+Determining if there are differences in sequencing depth by lab sample type
+
+```{r}
+#####
+# Read difference among lab samples
+
+# Test whether reads differ significantly among life history stages
+
+require(tidyverse)
+require(multcompView)
+
+# create data frame
+
+lab_reads_physeq<-readRDS("decontam lab reads no outliers")
+
+Total_Reads<-sample_sums(lab_reads_physeq)
+
+f<-as.data.frame(Total_Reads)
+f<-as.data.frame(f)
+colnames(f)="Total_Reads"
+total.reads <- tibble::rownames_to_column(f, "Sample ID")
+
+lab_df<- as.data.frame(sample_data(lab_reads_physeq))
+lab_df<-as.matrix(lab_df)
+lab_df<-as.data.frame(lab_df)
+lab_df<- tibble::rownames_to_column(lab_df, "Sample ID")
+
+new_df_total_seq_anova<-merge(total.reads,lab_df)
+
+new_df_total_seq_anova$log<-log(new_df_total_seq_anova$Total_Reads) # transform data to meet assumptions of ANOVA
+
+model=lm( new_df_total_seq_anova$log ~ new_df_total_seq_anova$Type_3 ) # run ANOVA (global test)
+ANOVA=aov(model)
+summary(model)
+
+TUKEY <- TukeyHSD(x=ANOVA, 'new_df_total_seq_anova$Type_3', conf.level=0.95) # run pairwise tests
+
+#  script to generate significance levels from:
+#  https://www.r-graph-gallery.com/84-tukey-test.html
+
+ generate_label_df <- function(TUKEY, variable){
+
+ #      Extract labels and factor levels from Tukey post-hoc
+      Tukey.levels <- TUKEY[[variable]][,4]
+      Tukey.labels <- data.frame(multcompLetters(Tukey.levels)['Letters'])
+
+#      I need to put the labels in the same order as in the boxplot :
+      Tukey.labels$treatment=rownames(Tukey.labels)
+      Tukey.labels=Tukey.labels[order(Tukey.labels$treatment) , ]
+      return(Tukey.labels)
+      }
+
+  #Apply the function on my dataset
+ LABELS <- generate_label_df(TUKEY , "new_df_total_seq_anova$Type_3")
+
+LABELS 
+#####
+```
